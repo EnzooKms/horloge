@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: #121212;
+}
+
+#first {
+    width: 25%;
+    height: 80vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#second {
+    width: 25%;
+    height: 80vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#troisieme {
+    width: 25%;
+    height: 80vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+
+#quatorzieme {
+    width: 25%;
+    height: 80vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+
+.top {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.left-top {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 20%;
+    left: -10%;
+}
+
+.right-top {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 20%;
+    right: -10%;
+}
+
+.middleT {
+    width: 200px;
+    height: 20px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    transform: rotateZ(180deg);
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.middleB {
+    width: 200px;
+    height: 20px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    transform: rotateZ(0deg);
+    position: absolute;
+    top: 40%;
+    transform: translateY(98%);
+    left: 25%;
+}
+
+.left-bottom {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 60%;
+    left: -10%;
+}
+
+.right-bottom {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 60%;
+    right: -10%;
+}
+
+.bottom {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 80% 80%, 20% 80%);
+    position: absolute;
+    transform: rotateZ(180deg);
+    top: 80%;
+    left: 25%;
+}
+
+#point {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#point #top {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#point #bottom {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
